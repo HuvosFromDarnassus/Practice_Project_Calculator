@@ -14,3 +14,4 @@ D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3
 D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.dll
 D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.pdb
 D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.genruntimeconfig.cache
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.Form_Trigonometric_Functions.resources

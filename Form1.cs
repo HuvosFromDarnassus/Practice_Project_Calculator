@@ -13,6 +13,7 @@ namespace Practice_Project_Calculator
     public partial class Form_Menu : Form
     {
         Form_Arythmetic_Operations Form_A_Op = new Form_Arythmetic_Operations();
+        Form_Trigonometric_Functions Form_Trigon_Func = new Form_Trigonometric_Functions();
 
         public Form_Menu()
         {
@@ -22,6 +23,12 @@ namespace Practice_Project_Calculator
         private void Buttom_Arythm_Op_Click(object sender, EventArgs e)
         {
             Form_A_Op.Show();
+            this.Hide();
+        }
+
+        private void Button_Trigon_Func_Click(object sender, EventArgs e)
+        {
+            Form_Trigon_Func.Show();
             this.Hide();
         }
     }

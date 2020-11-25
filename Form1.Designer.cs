@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.Buttom_Arythm_Op = new System.Windows.Forms.Button();
+            this.Button_Trigon_Func = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -47,17 +48,29 @@
             this.Buttom_Arythm_Op.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Buttom_Arythm_Op.Location = new System.Drawing.Point(74, 69);
             this.Buttom_Arythm_Op.Name = "Buttom_Arythm_Op";
-            this.Buttom_Arythm_Op.Size = new System.Drawing.Size(223, 38);
+            this.Buttom_Arythm_Op.Size = new System.Drawing.Size(223, 55);
             this.Buttom_Arythm_Op.TabIndex = 1;
             this.Buttom_Arythm_Op.Text = "Arythmetic operations";
             this.Buttom_Arythm_Op.UseVisualStyleBackColor = true;
             this.Buttom_Arythm_Op.Click += new System.EventHandler(this.Buttom_Arythm_Op_Click);
+            // 
+            // Button_Trigon_Func
+            // 
+            this.Button_Trigon_Func.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button_Trigon_Func.Location = new System.Drawing.Point(74, 130);
+            this.Button_Trigon_Func.Name = "Button_Trigon_Func";
+            this.Button_Trigon_Func.Size = new System.Drawing.Size(223, 55);
+            this.Button_Trigon_Func.TabIndex = 2;
+            this.Button_Trigon_Func.Text = "Trigonometric functions";
+            this.Button_Trigon_Func.UseVisualStyleBackColor = true;
+            this.Button_Trigon_Func.Click += new System.EventHandler(this.Button_Trigon_Func_Click);
             // 
             // Form_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 450);
+            this.Controls.Add(this.Button_Trigon_Func);
             this.Controls.Add(this.Buttom_Arythm_Op);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -73,6 +86,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Buttom_Arythm_Op;
+        private System.Windows.Forms.Button Button_Trigon_Func;
     }
 }
 
