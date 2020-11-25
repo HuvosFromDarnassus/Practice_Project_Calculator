@@ -50,6 +50,8 @@
             this.Pow_Btn = new System.Windows.Forms.Button();
             this.Sqrt_Btn = new System.Windows.Forms.Button();
             this.PI_Btn = new System.Windows.Forms.Button();
+            this.Mod_Btn = new System.Windows.Forms.Button();
+            this.Fuc_Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,14 +69,14 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(12, 44);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(343, 39);
+            this.textBox1.Size = new System.Drawing.Size(403, 39);
             this.textBox1.TabIndex = 1;
             // 
             // Equals_Button
             // 
             this.Equals_Button.Location = new System.Drawing.Point(12, 333);
             this.Equals_Button.Name = "Equals_Button";
-            this.Equals_Button.Size = new System.Drawing.Size(343, 55);
+            this.Equals_Button.Size = new System.Drawing.Size(403, 55);
             this.Equals_Button.TabIndex = 2;
             this.Equals_Button.Text = "=";
             this.Equals_Button.UseVisualStyleBackColor = true;
@@ -214,7 +216,7 @@
             // Minus_Btn
             // 
             this.Minus_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Minus_Btn.Location = new System.Drawing.Point(300, 272);
+            this.Minus_Btn.Location = new System.Drawing.Point(359, 272);
             this.Minus_Btn.Name = "Minus_Btn";
             this.Minus_Btn.Size = new System.Drawing.Size(55, 55);
             this.Minus_Btn.TabIndex = 3;
@@ -225,7 +227,7 @@
             // Plus_Btn
             // 
             this.Plus_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Plus_Btn.Location = new System.Drawing.Point(300, 211);
+            this.Plus_Btn.Location = new System.Drawing.Point(359, 211);
             this.Plus_Btn.Name = "Plus_Btn";
             this.Plus_Btn.Size = new System.Drawing.Size(55, 55);
             this.Plus_Btn.TabIndex = 3;
@@ -236,7 +238,7 @@
             // Multi_Btn
             // 
             this.Multi_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Multi_Btn.Location = new System.Drawing.Point(300, 150);
+            this.Multi_Btn.Location = new System.Drawing.Point(359, 150);
             this.Multi_Btn.Name = "Multi_Btn";
             this.Multi_Btn.Size = new System.Drawing.Size(55, 55);
             this.Multi_Btn.TabIndex = 3;
@@ -247,7 +249,7 @@
             // Div_Btn
             // 
             this.Div_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Div_Btn.Location = new System.Drawing.Point(300, 89);
+            this.Div_Btn.Location = new System.Drawing.Point(359, 89);
             this.Div_Btn.Name = "Div_Btn";
             this.Div_Btn.Size = new System.Drawing.Size(55, 55);
             this.Div_Btn.TabIndex = 3;
@@ -258,7 +260,7 @@
             // Pow_Btn
             // 
             this.Pow_Btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Pow_Btn.Location = new System.Drawing.Point(239, 90);
+            this.Pow_Btn.Location = new System.Drawing.Point(298, 90);
             this.Pow_Btn.Name = "Pow_Btn";
             this.Pow_Btn.Size = new System.Drawing.Size(55, 55);
             this.Pow_Btn.TabIndex = 4;
@@ -269,7 +271,7 @@
             // Sqrt_Btn
             // 
             this.Sqrt_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Sqrt_Btn.Location = new System.Drawing.Point(239, 150);
+            this.Sqrt_Btn.Location = new System.Drawing.Point(298, 150);
             this.Sqrt_Btn.Name = "Sqrt_Btn";
             this.Sqrt_Btn.Size = new System.Drawing.Size(55, 55);
             this.Sqrt_Btn.TabIndex = 5;
@@ -280,7 +282,7 @@
             // PI_Btn
             // 
             this.PI_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PI_Btn.Location = new System.Drawing.Point(239, 211);
+            this.PI_Btn.Location = new System.Drawing.Point(298, 211);
             this.PI_Btn.Name = "PI_Btn";
             this.PI_Btn.Size = new System.Drawing.Size(55, 55);
             this.PI_Btn.TabIndex = 6;
@@ -288,11 +290,35 @@
             this.PI_Btn.UseVisualStyleBackColor = true;
             this.PI_Btn.Click += new System.EventHandler(this.PI_Btn_Click);
             // 
+            // Mod_Btn
+            // 
+            this.Mod_Btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Mod_Btn.Location = new System.Drawing.Point(298, 272);
+            this.Mod_Btn.Name = "Mod_Btn";
+            this.Mod_Btn.Size = new System.Drawing.Size(55, 55);
+            this.Mod_Btn.TabIndex = 7;
+            this.Mod_Btn.Text = "MOD";
+            this.Mod_Btn.UseVisualStyleBackColor = true;
+            this.Mod_Btn.Click += new System.EventHandler(this.Mod_Btn_Click);
+            // 
+            // Fuc_Btn
+            // 
+            this.Fuc_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Fuc_Btn.Location = new System.Drawing.Point(237, 90);
+            this.Fuc_Btn.Name = "Fuc_Btn";
+            this.Fuc_Btn.Size = new System.Drawing.Size(55, 55);
+            this.Fuc_Btn.TabIndex = 8;
+            this.Fuc_Btn.Text = "n!";
+            this.Fuc_Btn.UseVisualStyleBackColor = true;
+            this.Fuc_Btn.Click += new System.EventHandler(this.Fuc_Btn_Click);
+            // 
             // Form_Arythmetic_Operations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 396);
+            this.ClientSize = new System.Drawing.Size(427, 396);
+            this.Controls.Add(this.Fuc_Btn);
+            this.Controls.Add(this.Mod_Btn);
             this.Controls.Add(this.PI_Btn);
             this.Controls.Add(this.Sqrt_Btn);
             this.Controls.Add(this.Pow_Btn);
@@ -346,5 +372,7 @@
         private System.Windows.Forms.Button Pow_Btn;
         private System.Windows.Forms.Button Sqrt_Btn;
         private System.Windows.Forms.Button PI_Btn;
+        private System.Windows.Forms.Button Mod_Btn;
+        private System.Windows.Forms.Button Fuc_Btn;
     }
 }

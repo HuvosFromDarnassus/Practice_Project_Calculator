@@ -159,6 +159,22 @@ namespace Practice_Project_Calculator
                 result = Math.Sqrt(num1);
                 textBox1.Text = result.ToString();
             }
+            else if (operation == '%')
+            {
+                result = num1 % num2;
+                textBox1.Text = result.ToString();
+            }
+            else if (operation == 'f')
+            {
+                result = 1;
+
+                for (int i = 1; i <= num1; i++)
+                {
+                    result *= i;
+                }
+
+                textBox1.Text = result.ToString();
+            }
             else if (operation == '/')
             {
                 if (num2 != 0)
@@ -193,6 +209,20 @@ namespace Practice_Project_Calculator
             this.textBox1.Text = "";
             input += Math.PI;
             this.textBox1.Text += input;
+        }
+
+        private void Mod_Btn_Click(object sender, EventArgs e)
+        {
+            firstOperand = input;
+            operation = '%';
+            input = string.Empty;
+        }
+
+        private void Fuc_Btn_Click(object sender, EventArgs e)
+        {
+            firstOperand = input;
+            operation = 'f';
+            input = string.Empty;
         }
     }
 }
