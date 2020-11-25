@@ -47,6 +47,8 @@
             this.Plus_Btn = new System.Windows.Forms.Button();
             this.Multi_Btn = new System.Windows.Forms.Button();
             this.Div_Btn = new System.Windows.Forms.Button();
+            this.Pow_Btn = new System.Windows.Forms.Button();
+            this.Sqrt_Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -64,14 +66,14 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(12, 44);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(283, 39);
+            this.textBox1.Size = new System.Drawing.Size(343, 39);
             this.textBox1.TabIndex = 1;
             // 
             // Equals_Button
             // 
             this.Equals_Button.Location = new System.Drawing.Point(12, 333);
             this.Equals_Button.Name = "Equals_Button";
-            this.Equals_Button.Size = new System.Drawing.Size(283, 55);
+            this.Equals_Button.Size = new System.Drawing.Size(343, 55);
             this.Equals_Button.TabIndex = 2;
             this.Equals_Button.Text = "=";
             this.Equals_Button.UseVisualStyleBackColor = true;
@@ -211,7 +213,7 @@
             // Minus_Btn
             // 
             this.Minus_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Minus_Btn.Location = new System.Drawing.Point(240, 272);
+            this.Minus_Btn.Location = new System.Drawing.Point(300, 272);
             this.Minus_Btn.Name = "Minus_Btn";
             this.Minus_Btn.Size = new System.Drawing.Size(55, 55);
             this.Minus_Btn.TabIndex = 3;
@@ -222,7 +224,7 @@
             // Plus_Btn
             // 
             this.Plus_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Plus_Btn.Location = new System.Drawing.Point(240, 211);
+            this.Plus_Btn.Location = new System.Drawing.Point(300, 211);
             this.Plus_Btn.Name = "Plus_Btn";
             this.Plus_Btn.Size = new System.Drawing.Size(55, 55);
             this.Plus_Btn.TabIndex = 3;
@@ -233,7 +235,7 @@
             // Multi_Btn
             // 
             this.Multi_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Multi_Btn.Location = new System.Drawing.Point(240, 150);
+            this.Multi_Btn.Location = new System.Drawing.Point(300, 150);
             this.Multi_Btn.Name = "Multi_Btn";
             this.Multi_Btn.Size = new System.Drawing.Size(55, 55);
             this.Multi_Btn.TabIndex = 3;
@@ -244,7 +246,7 @@
             // Div_Btn
             // 
             this.Div_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Div_Btn.Location = new System.Drawing.Point(240, 89);
+            this.Div_Btn.Location = new System.Drawing.Point(300, 89);
             this.Div_Btn.Name = "Div_Btn";
             this.Div_Btn.Size = new System.Drawing.Size(55, 55);
             this.Div_Btn.TabIndex = 3;
@@ -252,11 +254,35 @@
             this.Div_Btn.UseVisualStyleBackColor = true;
             this.Div_Btn.Click += new System.EventHandler(this.Div_Btn_Click);
             // 
+            // Pow_Btn
+            // 
+            this.Pow_Btn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Pow_Btn.Location = new System.Drawing.Point(239, 90);
+            this.Pow_Btn.Name = "Pow_Btn";
+            this.Pow_Btn.Size = new System.Drawing.Size(55, 55);
+            this.Pow_Btn.TabIndex = 4;
+            this.Pow_Btn.Text = "POW";
+            this.Pow_Btn.UseVisualStyleBackColor = true;
+            this.Pow_Btn.Click += new System.EventHandler(this.Pow_Btn_Click);
+            // 
+            // Sqrt_Btn
+            // 
+            this.Sqrt_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Sqrt_Btn.Location = new System.Drawing.Point(239, 150);
+            this.Sqrt_Btn.Name = "Sqrt_Btn";
+            this.Sqrt_Btn.Size = new System.Drawing.Size(55, 55);
+            this.Sqrt_Btn.TabIndex = 5;
+            this.Sqrt_Btn.Text = "√";
+            this.Sqrt_Btn.UseVisualStyleBackColor = true;
+            this.Sqrt_Btn.Click += new System.EventHandler(this.Sqrt_Btn_Click);
+            // 
             // Form_Arythmetic_Operations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 396);
+            this.ClientSize = new System.Drawing.Size(367, 396);
+            this.Controls.Add(this.Sqrt_Btn);
+            this.Controls.Add(this.Pow_Btn);
             this.Controls.Add(this.Div_Btn);
             this.Controls.Add(this.Multi_Btn);
             this.Controls.Add(this.Plus_Btn);
@@ -278,7 +304,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form_Arythmetic_Operations";
             this.Text = "Form_Arythmetic_Operations";
-            this.ResumeLayout(true);
+            this.ResumeLayout(false);
             this.PerformLayout();
 
         }
@@ -304,5 +330,7 @@
         private System.Windows.Forms.Button Plus_Btn;
         private System.Windows.Forms.Button Multi_Btn;
         private System.Windows.Forms.Button Div_Btn;
+        private System.Windows.Forms.Button Pow_Btn;
+        private System.Windows.Forms.Button Sqrt_Btn;
     }
 }

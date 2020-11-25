@@ -149,6 +149,16 @@ namespace Practice_Project_Calculator
                 result = num1 * num2;
                 textBox1.Text = result.ToString();
             }
+            else if (operation == 'p')
+            {
+                result = Math.Pow(num1, num2);
+                textBox1.Text = result.ToString();
+            }
+            else if (operation == 'r')
+            {
+                result = Math.Sqrt(num1);
+                textBox1.Text = result.ToString();
+            }
             else if (operation == '/')
             {
                 if (num2 != 0)
@@ -162,6 +172,20 @@ namespace Practice_Project_Calculator
                 }
 
             }
+        }
+
+        private void Pow_Btn_Click(object sender, EventArgs e)
+        {
+            firstOperand = input;
+            operation = 'p';
+            input = string.Empty;
+        }
+
+        private void Sqrt_Btn_Click(object sender, EventArgs e)
+        {
+            firstOperand = input;
+            operation = 'r';
+            input = string.Empty;
         }
     }
 }
