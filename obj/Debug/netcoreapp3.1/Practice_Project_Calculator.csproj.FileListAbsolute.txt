@@ -1,0 +1,16 @@
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.exe
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.deps.json
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.runtimeconfig.json
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.runtimeconfig.dev.json
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.dll
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\bin\Debug\netcoreapp3.1\Practice_Project_Calculator.pdb
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.csprojAssemblyReference.cache
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.Form_Menu.resources
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.Form_Arythmetic_Operations.resources
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.csproj.GenerateResource.cache
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.AssemblyInfoInputs.cache
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.AssemblyInfo.cs
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.csproj.CoreCompileInputs.cache
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.dll
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.pdb
+D:\DOCUMENTS\STADYING\PRACTICE\Practice_Project_Calculator\obj\Debug\netcoreapp3.1\Practice_Project_Calculator.genruntimeconfig.cache
