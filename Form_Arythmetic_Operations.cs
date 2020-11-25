@@ -187,5 +187,12 @@ namespace Practice_Project_Calculator
             operation = 'r';
             input = string.Empty;
         }
+
+        private void PI_Btn_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "";
+            input += Math.PI;
+            this.textBox1.Text += input;
+        }
     }
 }

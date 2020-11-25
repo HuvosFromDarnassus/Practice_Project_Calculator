@@ -49,6 +49,7 @@
             this.Div_Btn = new System.Windows.Forms.Button();
             this.Pow_Btn = new System.Windows.Forms.Button();
             this.Sqrt_Btn = new System.Windows.Forms.Button();
+            this.PI_Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -276,11 +277,23 @@
             this.Sqrt_Btn.UseVisualStyleBackColor = true;
             this.Sqrt_Btn.Click += new System.EventHandler(this.Sqrt_Btn_Click);
             // 
+            // PI_Btn
+            // 
+            this.PI_Btn.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PI_Btn.Location = new System.Drawing.Point(239, 211);
+            this.PI_Btn.Name = "PI_Btn";
+            this.PI_Btn.Size = new System.Drawing.Size(55, 55);
+            this.PI_Btn.TabIndex = 6;
+            this.PI_Btn.Text = "π";
+            this.PI_Btn.UseVisualStyleBackColor = true;
+            this.PI_Btn.Click += new System.EventHandler(this.PI_Btn_Click);
+            // 
             // Form_Arythmetic_Operations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(367, 396);
+            this.Controls.Add(this.PI_Btn);
             this.Controls.Add(this.Sqrt_Btn);
             this.Controls.Add(this.Pow_Btn);
             this.Controls.Add(this.Div_Btn);
@@ -332,5 +345,6 @@
         private System.Windows.Forms.Button Div_Btn;
         private System.Windows.Forms.Button Pow_Btn;
         private System.Windows.Forms.Button Sqrt_Btn;
+        private System.Windows.Forms.Button PI_Btn;
     }
 }
