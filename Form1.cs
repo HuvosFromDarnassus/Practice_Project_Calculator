@@ -24,23 +24,20 @@ namespace Practice_Project_Calculator
         private void Buttom_Arythm_Op_Click(object sender, EventArgs e)
         {
             Form_A_Op.Show();
-            this.Hide();
         }
 
         private void Button_Trigon_Func_Click(object sender, EventArgs e)
         {
             Form_Trigon_Func.Show();
-            this.Hide();
         }
 
         private void Button_Logarithms_Click(object sender, EventArgs e)
         {
             Form_Log.Show();
-            this.Hide();
         }
     }
 }
 
 //TODO:
-//7) Сделать калькулятор логарифмов
 //8) Сделать вывод графика в тригонометрических функциях
+//10) Слинковать exe

@@ -19,6 +19,7 @@ namespace Practice_Project_Calculator
         public Form_Arythmetic_Operations()
         {
             InitializeComponent();
+            textBox1.ReadOnly = true;
         }
 
         private void Zero_Btn_Click(object sender, EventArgs e)

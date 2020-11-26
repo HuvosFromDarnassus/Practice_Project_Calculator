@@ -56,6 +56,7 @@ namespace Practice_Project_Calculator
         public Form_Trigonometric_Functions()
         {
             InitializeComponent();
+            textBox3.ReadOnly = true;
         }
 
         private void Sin_Btn_Click(object sender, EventArgs e)

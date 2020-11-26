@@ -29,6 +29,9 @@ namespace Practice_Project_Calculator
         public Form_Logarithms()
         {
             InitializeComponent();
+            textBox3.ReadOnly = true;
+            textBox4.ReadOnly = true;
+            textBox5.ReadOnly = true;
         }
 
         string operation(AANDB values)
