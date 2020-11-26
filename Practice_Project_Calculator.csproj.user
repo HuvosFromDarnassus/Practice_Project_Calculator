@@ -7,6 +7,9 @@
     <Compile Update="Form_Arythmetic_Operations.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Form_Logarithms.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form_Trigonometric_Functions.cs">
       <SubType>Form</SubType>
     </Compile>

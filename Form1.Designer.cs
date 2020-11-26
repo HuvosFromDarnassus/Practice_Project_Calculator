@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Buttom_Arythm_Op = new System.Windows.Forms.Button();
             this.Button_Trigon_Func = new System.Windows.Forms.Button();
+            this.Button_Logarithms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -65,11 +66,23 @@
             this.Button_Trigon_Func.UseVisualStyleBackColor = true;
             this.Button_Trigon_Func.Click += new System.EventHandler(this.Button_Trigon_Func_Click);
             // 
+            // Button_Logarithms
+            // 
+            this.Button_Logarithms.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button_Logarithms.Location = new System.Drawing.Point(74, 191);
+            this.Button_Logarithms.Name = "Button_Logarithms";
+            this.Button_Logarithms.Size = new System.Drawing.Size(223, 55);
+            this.Button_Logarithms.TabIndex = 3;
+            this.Button_Logarithms.Text = "Logarithms";
+            this.Button_Logarithms.UseVisualStyleBackColor = true;
+            this.Button_Logarithms.Click += new System.EventHandler(this.Button_Logarithms_Click);
+            // 
             // Form_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 450);
+            this.Controls.Add(this.Button_Logarithms);
             this.Controls.Add(this.Button_Trigon_Func);
             this.Controls.Add(this.Buttom_Arythm_Op);
             this.Controls.Add(this.label1);
@@ -87,6 +100,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Buttom_Arythm_Op;
         private System.Windows.Forms.Button Button_Trigon_Func;
+        private System.Windows.Forms.Button Button_Logarithms;
     }
 }
 

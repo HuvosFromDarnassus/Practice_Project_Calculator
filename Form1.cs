@@ -14,6 +14,7 @@ namespace Practice_Project_Calculator
     {
         Form_Arythmetic_Operations Form_A_Op = new Form_Arythmetic_Operations();
         Form_Trigonometric_Functions Form_Trigon_Func = new Form_Trigonometric_Functions();
+        Form_Logarithms Form_Log = new Form_Logarithms();
 
         public Form_Menu()
         {
@@ -31,10 +32,15 @@ namespace Practice_Project_Calculator
             Form_Trigon_Func.Show();
             this.Hide();
         }
+
+        private void Button_Logarithms_Click(object sender, EventArgs e)
+        {
+            Form_Log.Show();
+            this.Hide();
+        }
     }
 }
 
 //TODO:
-//6) Добавить факториал в базовый калькулятор
 //7) Сделать калькулятор логарифмов
 //8) Сделать вывод графика в тригонометрических функциях
